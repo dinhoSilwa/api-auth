@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "nodemon",
     "start": "node build/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "start:prod": "tsc && node build/server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
