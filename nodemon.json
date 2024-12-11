@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "exec": "tsx src/server.ts",
+  "restartable": "rs",
+  "verbose": true,
+  "ignore": [
+    "src/**/*.ts",
+    "*.eslint*",
+    "*.prettierrc*",
+    "node_modules/**"
+  ]
+}
