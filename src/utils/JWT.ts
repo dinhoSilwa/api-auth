@@ -1,10 +1,12 @@
 import jwt from "jsonwebtoken";
 import type { IAuthUser } from "../models/Auth";
+import { configDotenv } from "dotenv";
+configDotenv()
 
-const SECRET_KEY = process.env.JWT_SECRET || "12345678";
+const {JWT_SECRET} = process.env
 export class JWTservice {
   private secretKey: string;
-  constructor(secretKey: string = SECRET_KEY) {
+  constructor(secretKey: string = JWT_SECRET as string) {
     this.secretKey = secretKey;
   }
   generateJWT(user: Partial<IAuthUser>): string {
