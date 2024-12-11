@@ -6,9 +6,6 @@
 
 Este projeto implementa um sistema de autenticação utilizando o **Repository Pattern** em conjunto com **TypeScript**, **Node.js**, **Express**, e o banco de dados **MongoDB**. O objetivo principal é fornecer uma arquitetura limpa, modular e escalável.
 
----
-# Tecnologias usadas
-
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
@@ -18,6 +15,7 @@ Este projeto implementa um sistema de autenticação utilizando o **Repository P
 ![Bcrypt](https://img.shields.io/badge/-Bcrypt-E5E500?logo=bcrypt&logoColor=white)
 
 
+---
 ## O que é o Repository Pattern?
 
 O Repository Pattern é um padrão de design que atua como uma ponte entre a aplicação e a camada de dados. Ele encapsula a lógica de acesso a dados, oferecendo uma interface específica para interagir com o banco de dados. Isso facilita a manutenção, os testes e a substituição da tecnologia de armazenamento sem alterar outras partes do código.
