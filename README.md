@@ -7,6 +7,16 @@
 Este projeto implementa um sistema de autenticação utilizando o **Repository Pattern** em conjunto com **TypeScript**, **Node.js**, **Express**, e o banco de dados **MongoDB**. O objetivo principal é fornecer uma arquitetura limpa, modular e escalável.
 
 ---
+# Tecnologias usadas
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/-Mongoose-880000?logo=mongoose&logoColor=white)
+![JWT](https://img.shields.io/badge/-JWT-000000?logo=json-web-tokens&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/-Bcrypt-E5E500?logo=bcrypt&logoColor=white)
+
 
 ## O que é o Repository Pattern?
 
@@ -83,12 +93,6 @@ O projeto segue a seguinte organização de pastas:
    ```
 
 O servidor estará disponível em `http://localhost:3000`.
-
----
-
-## Contribuições
-
-Sinta-se à vontade para contribuir enviando PRs ou relatando problemas na aba de Issues.
 
 ---
 
